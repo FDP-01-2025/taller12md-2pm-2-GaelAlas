@@ -64,6 +64,7 @@ void modificarEstudiante() {
             }
              //Esta linea impide que se borren los registros anteriores y guarda los registros modificados
             temp<<e.nombre<<" "<<e.carnet<<" "<<e.edad<<endl;
+            modificado=true;
         }
         //Se cierran los archivos para no tener problemas
         archivo.close();
