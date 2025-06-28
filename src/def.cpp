@@ -61,10 +61,11 @@ void modificarEstudiante() {
                 cout<<"Ingrese el nuevo nombre "; cin>>e.nombre;
                 cout<<"Ingrese el nuevo id "; cin>>e.carnet;
                 cout<<"Ingrese la nueva edad "; cin>>e.edad;      
+                modificado=true;
             }
              //Esta linea impide que se borren los registros anteriores y guarda los registros modificados
             temp<<e.nombre<<" "<<e.carnet<<" "<<e.edad<<endl;
-            modificado=true;
+            
         }
         //Se cierran los archivos para no tener problemas
         archivo.close();
